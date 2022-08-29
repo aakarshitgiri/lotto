@@ -1,0 +1,18 @@
+.TableCell {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.center {
+    text-align: -webkit-center !important;
+
+}
+
+.TableBody {
+    padding: 1rem !important;
+    background-color: black !important;
+    border-radius: 1rem !important;
+
+
+}

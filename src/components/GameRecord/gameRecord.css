@@ -1,0 +1,30 @@
+.gameRecord__Heading {
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.TableCell {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.TableHead {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.center {
+    text-align: -webkit-center !important;
+
+}
+
+.TableBody {
+    padding: 1rem !important;
+    background-color: black !important;
+    border-radius: 1rem !important;
+
+
+}

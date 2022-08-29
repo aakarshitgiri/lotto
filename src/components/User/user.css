@@ -1,0 +1,16 @@
+.tickets {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ticket__Number {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px;
+}

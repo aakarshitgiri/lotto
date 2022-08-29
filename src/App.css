@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: roc-grotesk, sans-serif !important;
+  font-style: normal !important;
+
+
+}
+
+
+
+body {
+  background-color: #000000;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #2C3E50, #000000);
+
+}

@@ -1,0 +1,17 @@
+.footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.iconFooterbox {
+  text-align: center;
+  cursor: pointer;
+}
+.footerContact {
+  justify-content: center;
+  
+}
+
+

@@ -1,0 +1,36 @@
+.formInputBox {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.formBox {
+    width: 50rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#lotteryName,
+#lotteryBasePrice,
+#lotteryTicketPrice,
+#poolSize,
+#endTime {
+    width: 20rem !important;
+
+}
+
+.MuiFormControl-root {
+    margin: 2rem !important;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 2rem;
+    cursor: pointer;
+}

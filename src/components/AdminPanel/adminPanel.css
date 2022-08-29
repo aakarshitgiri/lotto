@@ -1,0 +1,29 @@
+.Admin-container {
+    text-align: -webkit-center;
+}
+
+.Admin-container__gameInfo {
+    padding: 2rem;
+    width: 50%;
+}
+
+.admin_heading {
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.Admin-container__btn {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.Admin-container__gameRecord {
+    padding: 1rem 10rem;
+}

@@ -1,0 +1,180 @@
+.link,
+.modal-head {
+
+  font-weight: 300;
+  font-size: 22px;
+  padding: 5px 2px;
+  line-height: 109.72%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #6C6C6C;
+
+}
+
+.logoName {
+  font-size: 1.5em;
+  color: white;
+  padding: 10px;
+  align-content: center;
+  align-items: center;
+}
+
+.IconBox {
+  text-align: center;
+}
+
+.metaIcon {
+  width: 5rem;
+}
+
+.box-modal {
+  background-color: white;
+  border: 3px solid #6C6C6C;
+  border-radius: 2rem;
+  width: 500px;
+}
+
+
+
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  position: relative;
+  top: 0;
+  z-index: 999;
+  background-color: black;
+}
+
+.left-Nav {
+  display: flex;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+
+
+.nav-menu {
+  display: inline-flex;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 5px;
+  list-style: none;
+  text-align: center;
+  width: max-content;
+  justify-content: end;
+  margin-right: 0rem;
+  margin-left: 6rem;
+}
+
+.nav-item {
+  height: 30px;
+  text-align: -webkit-center;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  height: 60%;
+  position: relative;
+  top: 1rem;
+  width: max-content;
+  color: white;
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid rgba(123, 176, 55, 0.35);
+  transition: all 0.2s ease-out;
+}
+
+
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.btn-wallet {
+  padding: 5px 10px;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 1em;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iconbtnBox {
+  text-align: -webkit-center;
+}
+
+
+
+
+@media screen and (max-width: 1320px) {
+  .navbar {
+
+    height: 80px !important;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 520px) {
+  .metaIcon {
+    width: 4rem;
+    margin-top: 2rem;
+  }
+
+  .box-modal {
+    width: 330px;
+  }
+
+  .wallet,
+  .link {
+    font-size: 17px;
+  }
+
+  .btn-wallet {
+    top: 5px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .box-modal {
+    width: 280px;
+  }
+
+  .wallet,
+  .link {
+    font-size: 14px;
+  }
+
+  .btn-wallet {
+    top: 5px;
+  }
+
+}
